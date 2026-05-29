@@ -58,7 +58,7 @@ Które z poniższych słów kluczowych w języku Java służy do uniemożliwieni
 
 ---
 
-## Pytanie 3
+## Pytanie 2
 Która z wymienionych klas w Javie reprezentuje niemodyfikowalny (*immutable*) ciąg znaków?
 - [ ] A) `StringBuilder`
 - [ ] B) `StringBuffer`
