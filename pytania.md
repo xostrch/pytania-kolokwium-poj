@@ -97,7 +97,7 @@ W jaki sposób poprawnie porównać zawartość dwóch obiektów klasy `String` 
 
 ---
 
-## Pytanie 6
+## Pytanie 5
 Który z poniższych bloków w konstrukcji `try-catch-finally` wykona się **zawsze**, niezależnie od tego, czy wyjątek został rzucony, czy nie?
 - [ ] A) `try`
 - [ ] B) `catch`
