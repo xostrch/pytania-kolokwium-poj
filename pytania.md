@@ -12,20 +12,20 @@ Napisz klasę o nazwie Pojazd oraz klasę Samochod, która po niej dziedziczy.
 - napisaną metodę `uruchom()`, która wypisuje komunikat: „Samochod marki [nazwa_marki] wystartowal”
 
 ```java
-public class Pojazd {
+class Pojazd {
     protected String marka;
 
     public Pojazd(String marka) {
         this.marka = marka;
     }
 
-    public void运行 uruchom() {
+    public void uruchom() {
         System.out.println("Pojazd wystartował");
     }
 }
 
 // Klasa pochodna
-public class Samochod extends Pojazd {
+class Samochod extends Pojazd {
     private int liczbaDrzwi;
 
     public Samochod(String marka, int liczbaDrzwi) {
