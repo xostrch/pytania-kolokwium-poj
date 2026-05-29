@@ -58,20 +58,16 @@ Które z poniższych słów kluczowych w języku Java służy do uniemożliwieni
 
 ---
 
-## Pytanie 2
-Jaki będzie wynik wykonania poniższego fragmentu kodu?
+## Pytanie 3
+Która z wymienionych klas w Javie reprezentuje niemodyfikowalny (*immutable*) ciąg znaków?
+- [ ] A) `StringBuilder`
+- [ ] B) `StringBuffer`
+- [ ] C) `String`
+- [ ] D) `CharBuffer`
+- [ ] E) `ArrayList`
 
-    int x = 5;
-    System.out.println(x++);
-
-- [ ] A) `5`
-- [ ] B) `6`
-- [ ] C) `0`
-- [ ] D) Błąd kompilacji
-- [ ] E) Błąd wykonania (Runtime Exception)
-
-**Poprawna odpowiedź:** A
-*Wyjaśnienie:* Użyto operatora post-inkrementacji (`x++`), co oznacza, że najpierw pobierana i wypisywana jest aktualna wartość zmiennej (`5`), a dopiero potem jest ona zwiększana w pamięci.
+**Poprawna odpowiedź:** C
+*Wyjaśnienie:* Obiekty klasy `String` są niemodyfikowalne. Każda operacja zmiany tekstu (np. konkatenacja) powoduje utworzenie nowego obiektu w pamięci.
 
 ---
 
@@ -101,15 +97,15 @@ W jaki sposób poprawnie porównać zawartość dwóch obiektów klasy `String` 
 
 ---
 
-## Pytanie 5
-Jakie słowo kluczowe stosujemy w sygnaturze metody, aby wskazać, że nie zwraca ona żadnej wartości?
-- [ ] A) `null`
-- [ ] B) `empty`
-- [ ] C) `void`
-- [ ] D) `static`
-- [ ] E) `public`
+## Pytanie 6
+Który z poniższych bloków w konstrukcji `try-catch-finally` wykona się **zawsze**, niezależnie od tego, czy wyjątek został rzucony, czy nie?
+- [ ] A) `try`
+- [ ] B) `catch`
+- [ ] C) `finally`
+- [ ] D) `throws`
+- [ ] E) Żaden z powyższych
 
 **Poprawna odpowiedź:** C
-*Wyjaśnienie:* Słowo kluczowe `void` oznacza pusty typ zwracany. Metoda wykonuje operacje, ale nie zwraca niczego za pomocą instrukcji `return`.
+*Wyjaśnienie:* Blok `finally` służy najczęściej do zamykania zasobów i gwarantuje wykonanie zawartego w nim kodu bez względu na to, czy w sekcji `try` wystąpił błąd, czy też kod wykonał się poprawnie.
 
 ---
